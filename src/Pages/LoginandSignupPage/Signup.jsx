@@ -12,7 +12,7 @@ function Signup() {
     navigate("/login");
   };
   const handleclicktolanding = () => {
-    navigate("/");
+    navigate("/client-bot");
   };
   const [FormData, setFormData] = useState({
     username: "",
