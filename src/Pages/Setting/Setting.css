@@ -1,0 +1,23 @@
+.setting_input {
+  position: relative;
+  .login_input {
+    width: 91%;
+  }
+}
+.setting_icons {
+  position: absolute;
+  top: 35%;
+  padding-left: 10px;
+}
+.login_input {
+  padding-left: 30px;
+}
+.logout_button {
+  position: absolute;
+  left: 7em;
+  bottom: 3em;
+  color: red;
+  background-color: transparent;
+  font-size: 16px;
+  display: flex;
+}

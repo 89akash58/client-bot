@@ -1,0 +1,49 @@
+.navigation_container {
+  background: #18181b;
+
+  border: 1px solid rgb(110, 110, 111);
+}
+.navigation_all {
+  display: flex;
+  justify-content: space-between;
+}
+.navigation_search {
+  color: white;
+  margin-left: 30px;
+}
+.nav_input {
+  background-color: rgb(103, 103, 103);
+  margin: 10px;
+  border-radius: 3px;
+  padding: 5px;
+  border: none;
+  color: white;
+}
+::placeholder {
+  color: rgb(179, 173, 173);
+}
+.nav_item {
+  margin: 10px;
+  background: transparent;
+  padding: 5px;
+
+  &:hover {
+    border: 1px solid blue;
+    color: blue;
+    background: transparent;
+  }
+}
+.navigation_buttons {
+  display: flex;
+  align-items: center;
+}
+.nav {
+  margin: 10px;
+  padding: 7px;
+}
+.share {
+  background-color: rgb(150, 150, 150);
+}
+.save {
+  background-color: rgb(46, 243, 49);
+}

@@ -1,0 +1,35 @@
+.integration-container {
+  border-radius: 10px;
+  width: 91vw;
+  margin: auto;
+}
+.icon {
+  width: 90vw;
+  height: 100px;
+  margin: -2px;
+  opacity: 0.6;
+  background: linear-gradient(
+    to right,
+    rgba(255, 249, 249, 0) 0%,
+    rgb(0, 0, 0) 49%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  padding: 20px;
+}
+
+.integration-text {
+  color: white;
+  width: 36vw;
+  margin-left: 6em;
+  margin-bottom: 13em;
+}
+
+.integration-text h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.integration-text p {
+  font-size: 14px;
+  color: #ccc;
+}

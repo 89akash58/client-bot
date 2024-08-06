@@ -1,0 +1,87 @@
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: #27272a;
+  display: flex;
+  flex-direction: column;
+  /* transition: background-color 0.3s ease; */
+}
+.main {
+  width: 100%;
+  display: flex;
+}
+.light {
+  background-color: #ffffff;
+  color: #ffffff;
+}
+
+.dark {
+  background-color: #171923;
+  color: #ffffff;
+}
+
+.blue {
+  background-color: #508c9b;
+  color: #ffffff;
+}
+.themeContainer {
+  width: 350px;
+  height: 100%;
+  background-color: #18181b;
+}
+
+.heading {
+  padding: 10%;
+  border-bottom: 1px solid #474747;
+}
+.heading h1 {
+  font-size: 1.5rem;
+}
+.themeOption {
+  margin: 8% 14%;
+}
+
+.themeOption h2 {
+  margin: 0;
+}
+.themeOption img {
+  cursor: pointer;
+}
+
+.chatBg {
+  width: 60%;
+  margin: 3% auto;
+  position: relative;
+}
+
+.btn {
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: none;
+  margin: 12px;
+  font-family: "Open Sans";
+  font-size: 1rem;
+}
+
+.rightBtn {
+  background-color: rgb(3, 3, 241);
+  color: #fff;
+  position: absolute;
+  right: 0;
+  top: 8%;
+}
+.dot {
+  width: 12px;
+  height: 12px;
+  background-color: #2828df;
+  border-radius: 100%;
+  position: absolute;
+  right: 8px;
+  top: 9%;
+  z-index: 1;
+}
+
+.border {
+  border: 5px solid #1a5fff;
+  border-radius: 10px;
+}

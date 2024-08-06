@@ -1,0 +1,100 @@
+.dashboard_container {
+  background-color: rgb(8, 0, 25);
+  height: 100vh;
+}
+
+.dashboard_header {
+  border-bottom: 1.5px solid grey;
+  text-align: center;
+  padding: 12px;
+}
+
+#dash_list {
+  color: white;
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.lists {
+  background-color: black;
+  font-size: 14px;
+}
+
+.dashboard_body {
+  margin: auto;
+  width: 83vw;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+
+.create_folder {
+  background-color: rgb(50, 49, 49);
+  padding: 10px;
+  font-size: 14px;
+}
+.create_typebot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  background-color: #1a5fff;
+}
+
+.folder {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.folder-item {
+  background-color: rgb(50, 49, 49);
+  color: white;
+  border-radius: 5px;
+  padding: 7px 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  height: 22px;
+  flex: 0 0 auto;
+  margin-top: 10px;
+}
+.folder-item:active {
+  background-color: black;
+}
+
+.folder button.create_folder {
+  flex: 0 0 auto;
+}
+.typebot {
+  color: aliceblue;
+  display: flex;
+}
+.formbot-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-left: 20px;
+}
+.new_form {
+  background-color: rgb(167, 167, 167);
+  padding: 40px;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+.bots_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.del {
+  color: red;
+  position: absolute;
+  font-size: 20px;
+  right: -10px;
+  top: -10px;
+}

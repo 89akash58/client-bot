@@ -1,0 +1,33 @@
+.newfolder_container {
+  color: white;
+  background-color: rgb(0, 1, 24);
+  border: 1px solid grey;
+  width: 30vw;
+  border-radius: 10px;
+  padding: 20px;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+.newfolder_inputs {
+  width: 90%;
+  background-color: rgb(40, 40, 40);
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: rgb(247, 247, 247);
+}
+.newfolder_button {
+  display: flex;
+  justify-content: space-evenly;
+}
+.done_button {
+  background-color: transparent;
+  color: #1a5fff;
+  border: none;
+  font-weight: 700;
+}
+.cancel_button {
+  background-color: transparent;
+  font-weight: 700;
+}

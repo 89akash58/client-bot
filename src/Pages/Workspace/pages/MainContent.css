@@ -1,0 +1,102 @@
+.main-content {
+  display: flex;
+  background-color: #1f1f23;
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.start {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.start-name {
+  background-color: #18181b;
+  border: none;
+  color: white;
+  height: 2em;
+  width: 15em;
+  padding: 10px;
+  font-weight: 600;
+  margin-top: 50px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.flag-icon {
+  font-size: 18px;
+  color: white;
+}
+
+.selected-items {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.selected-item {
+  width: 35%;
+  padding: 10px;
+  background-color: #1e1e1f;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  gap: 10px;
+}
+
+.bubble,
+.input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  gap: 10px;
+  padding: 10px;
+  background-color: #151517;
+  border-radius: 5px;
+  color: white;
+}
+
+input {
+  padding-left: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: #3a3a3f;
+  color: white;
+}
+
+.bubble_icons,
+.inputs_icon {
+  position: absolute;
+  bottom: 18px;
+  color: blue;
+  font-size: 22px;
+}
+.inputs_icon {
+  color: rgb(229, 229, 0);
+}
+.delete_icon {
+  position: absolute;
+  right: 0;
+  color: red;
+  top: -7px;
+  background-color: rgb(88, 88, 88);
+  padding: 10px;
+  border-radius: 50%;
+}
+.para {
+  margin-left: 20px;
+  padding: 10px;
+  font-size: 10px;
+}

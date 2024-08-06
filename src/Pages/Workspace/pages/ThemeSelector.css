@@ -1,0 +1,100 @@
+.theme-selector {
+  gap: 10px;
+  /* display: flex; */
+}
+.theme_container {
+  display: flex;
+}
+.customize_theme {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  background-color: #000;
+  align-items: center;
+  padding: 20px;
+}
+
+.heading_theme {
+  color: #fff;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding: 20px;
+  width: 100%;
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+
+.theme-option {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 8px;
+  width: 60%;
+  margin-bottom: 15px;
+  background-color: #1e1e1e;
+}
+
+.theme-preview {
+  border-radius: 8px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.theme-preview img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.theme-option p {
+  color: #fff;
+  margin: 5px 0 0 0;
+  font-size: 14px;
+}
+
+.theme-option:hover {
+  background-color: #2c2c2c;
+}
+
+/* Active theme styles */
+.theme-option.active {
+  border: 2px solid #007bff;
+}
+
+/* Theme styles for the main app container */
+.light {
+  background-color: #fff;
+  color: #000;
+}
+
+.dark {
+  background-color: #1e1e1e;
+  color: #fff;
+}
+
+.blue {
+  background-color: #2c3e50;
+  color: #fff;
+}
+/* .themes {
+  display: flex;
+} */
+.app-container.light {
+  --background-color: #ffffff;
+  --text-color: #000000;
+  --button-background: #007bff;
+  --button-color: #ffffff;
+}
+
+.app-container.dark {
+  --background-color: #2c2c2c;
+  --text-color: #ffffff;
+  --button-background: #1f1f1f;
+  --button-color: #007bff;
+}
+
+.app-container.blue {
+  --background-color: #e0f7fa;
+  --text-color: #006064;
+  --button-background: #007bff;
+  --button-color: #ffffff;
+}

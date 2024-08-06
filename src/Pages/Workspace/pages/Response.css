@@ -1,0 +1,66 @@
+.response {
+  background-color: #1e1e1e;
+  color: white;
+  height: 100vh;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px;
+  margin-bottom: 20px;
+}
+
+.stat-box {
+  background-color: #555353;
+  padding: 20px 30px;
+  width: 10em;
+  border-radius: 5px;
+}
+
+.stat-label {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.stat-value {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  background-color: black;
+  margin: auto;
+  width: 90%;
+  border: 1px solid gray;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid grey;
+}
+
+tr:nth-child(even) {
+  background-color: #000000;
+}
+
+.scroll-note {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 45%;
+  margin-bottom: 20px;
+  color: #aaa;
+  font-size: 12px;
+}

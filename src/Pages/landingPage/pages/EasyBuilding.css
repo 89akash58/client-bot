@@ -1,0 +1,65 @@
+.heading-3 {
+  color: white;
+  font-size: 48px;
+  margin-top: 1.5em;
+}
+.para-3 {
+  color: grey;
+  font-size: 22px;
+}
+.easy_embed {
+  display: flex;
+  width: 83vw;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 10em;
+}
+.easy_text {
+  text-align: left;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.embed_text {
+  text-align: left;
+  margin-right: 50px;
+}
+@media only screen and (max-width: 900px) {
+  .easy_embed {
+    flex-direction: column;
+    width: 95vw;
+  }
+
+  .easy,
+  .embed {
+    width: 100%;
+    margin-bottom: 2em;
+  }
+
+  .easy_text,
+  .embed_text {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .heading-3 {
+    font-size: 36px;
+  }
+
+  .para-3 {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .heading-3 {
+    font-size: 28px;
+  }
+
+  .para-3 {
+    font-size: 16px;
+  }
+
+  .easy_embed {
+    margin-bottom: 5em;
+  }
+}

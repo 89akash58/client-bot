@@ -1,0 +1,53 @@
+.side-panel {
+  width: 25%;
+  background: #18181b;
+  border: 1px solid rgb(110, 110, 111);
+  padding: 20px;
+  height: 100vh;
+  margin: 10px;
+  border-radius: 5px;
+  overflow-y: hidden;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.side_B_I {
+  color: white;
+}
+.option {
+  background-color: #27272a;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  width: 45%;
+  font-size: 14px;
+}
+.bubble_icon {
+  color: #1120cd;
+  stroke-width: 1;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.inputs_icons {
+  color: hsl(55, 99%, 43%);
+  stroke-width: 1;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.option.active {
+  background-color: #0078d4;
+}

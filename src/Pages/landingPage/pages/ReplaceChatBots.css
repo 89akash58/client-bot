@@ -1,0 +1,88 @@
+.replace_chat_bot_container {
+  width: 70vw;
+  margin: auto;
+}
+.replace_text {
+  text-align: center;
+}
+.cancelandcorrect_icon {
+  font-size: 45px;
+  display: flex;
+  justify-content: space-around;
+}
+.formandchatbot {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 83vw;
+}
+.oldform {
+  margin-top: 10px;
+  color: white;
+  font-weight: 300;
+  width: 40vw;
+  margin-right: 15px;
+  font-size: 12px;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+.entry {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: transparent;
+  border: 1px solid grey;
+  padding: 5px;
+  border-radius: 5px;
+}
+.texts {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: transparent;
+  border: 1px solid grey;
+  height: 10vh;
+}
+.boxes {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: transparent;
+  border: 1px solid grey;
+}
+.chatbot {
+  margin-top: 10px;
+  color: white;
+  font-weight: 300;
+  width: 40vw;
+  margin-right: 15px;
+  font-size: 12px;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+.internalmessage {
+  background-color: rgba(41, 59, 139, 0.541);
+  width: 20vw;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 50px;
+}
+.images {
+  position: relative;
+}
+.square {
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+}
+.gif {
+  margin-left: 50px;
+  width: 32vw;
+  border-radius: 5px;
+  background-color: rgba(41, 59, 139, 0.541);
+  padding: 10px;
+}

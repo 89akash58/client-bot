@@ -1,0 +1,22 @@
+.create_demo_container {
+  text-align: center;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 60px;
+  justify-content: center;
+}
+.heading_1 {
+  font-size: 45px;
+  background: linear-gradient(to right, blue, pink);
+  background-clip: text;
+  color: transparent;
+}
+.formimage {
+  text-align: center;
+  margin-top: 50px;
+}
+.image {
+  width: 83vw;
+}
