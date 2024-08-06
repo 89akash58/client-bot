@@ -51,7 +51,7 @@ function Login() {
   };
 
   const handleclicktolanding = () => {
-    navigate("/");
+    navigate("/client-bot");
   };
 
   const validateForm = () => {
